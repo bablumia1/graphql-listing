@@ -1,0 +1,15 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.listings {
+  padding: 20px;
+  border: 1px solid rgba(128, 128, 128, 0.219);
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
