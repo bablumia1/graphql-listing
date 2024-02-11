@@ -9,7 +9,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       "/api": {
-        target: "http://localhost:9000",
+        target: "https://graphql-listing-server.vercel.app",
         changeOrigin: true,
         secure: false,
       },
